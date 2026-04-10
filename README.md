@@ -1,6 +1,6 @@
 # Mini E-commerce Backend
 
-A production-style, Myntra-inspired e-commerce system built with Django, Django REST Framework, SQLite/MySQL, and Postman. It includes product catalog APIs, cart operations, order placement, JWT authentication, and a React frontend for demo usage.
+A production-style e-commerce system built with Django, Django REST Framework, SQLite/MySQL, and Postman. It includes product catalog APIs, cart operations, order placement, JWT authentication, and a React frontend for end-to-end demo usage.
 
 ![Django](https://img.shields.io/badge/Django-4.x-092E20?logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-REST%20API-ff1709?logo=django&logoColor=white)
@@ -9,7 +9,7 @@ A production-style, Myntra-inspired e-commerce system built with Django, Django 
 
 ## ⭐ Project Highlights
 
-- **API-first ecommerce backend** inspired by real product-company flows.
+- **API-first e-commerce backend** inspired by real-world product engineering flows.
 - **Transactional order service** that prevents partial checkout failures.
 - **Snapshot-based order history** so past orders remain accurate even when product data changes.
 - **React demo client** connected to live Django APIs for a full end-to-end flow.
@@ -18,7 +18,7 @@ A production-style, Myntra-inspired e-commerce system built with Django, Django 
 
 This project solves the core backend problem behind modern e-commerce platforms: managing products, user carts, and orders in a clean, scalable, API-first architecture.
 
-In systems like Myntra, Flipkart, or Amazon, the backend must support product discovery, cart updates, order checkout, and historical order tracking while staying fast, consistent, and easy to evolve. This project models those same ideas in a simplified but production-minded way.
+In real e-commerce systems, the backend must support product discovery, cart updates, order checkout, and historical order tracking while staying fast, consistent, and easy to evolve. This project models those same ideas in a simplified but production-minded way.
 
 ## 🏗️ Architecture / System Design
 
@@ -172,7 +172,7 @@ POST /api/cart/
     {
       "id": 1,
       "product": 1,
-      "product_name": "Myntra Classic White Tee",
+      "product_name": "Classic White Tee",
       "product_price": "499.00",
       "quantity": 2,
       "subtotal": "998.00"
@@ -317,7 +317,7 @@ For a real production system, this design can scale further with:
 
 ## 💡 Learnings
 
-- How to model real-world ecommerce flows in Django ORM.
+- How to model real-world e-commerce flows in Django ORM.
 - Why serializers, views, and services should be separated.
 - How transactions protect data consistency in checkout systems.
 - How snapshot-based order design preserves history.
@@ -326,9 +326,9 @@ For a real production system, this design can scale further with:
 
 ## 👨‍💻 Author
 
-Built by **Satyam Singh** as a Myntra-inspired backend engineering project.
+Built by **Satyam Singh** as a backend engineering project.
 
-This project was designed to demonstrate backend fundamentals, API design, database modeling, transactional integrity, and frontend-backend integration in a way that is interview-ready and product-company oriented.
+This project was designed to demonstrate backend fundamentals, API design, database modeling, transactional integrity, and frontend-backend integration in a way that is interview-ready and aligned with real product engineering expectations.
 
 ---
 
